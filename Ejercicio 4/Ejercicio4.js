@@ -27,9 +27,6 @@ function calcularIMC(){
     let imc = (valorPeso / (valorEstatura ** 2));
     console.log(imc);
 
-
     muestraIMC.innerText = imc.toFixed(2) + " de IMC";
-
-
 }
 
