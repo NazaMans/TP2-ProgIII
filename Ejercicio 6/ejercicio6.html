@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6</title>
+    <style rel="stylesheet" type="text/css" href="ejercicio5.css"></style>
+</head>
+<body>
+
+<!-- Realice una pagina que permita ingresar el nombre, apellido, edad en años, altura en centímetros 
+y correo electrónico de una persona. 
+Al hacer click sobre un botón llamado ‘enviar’ este debe realizar las siguiente validaciones:
+
+El nombre y apellido no pueden estar vacíos y deben ser de un máximo de 50 caracteres.
+
+La edad no debe ser negativa pero también validar que no sea menor de edad.
+
+La altura no puede ser negativa y no puede ser mayor a 230 (cm).
+
+El correo electrónico no puede estar vacío y debe incluir el ‘@’. 
+
+Mostrar en un elemento <p> un mensaje con el resultado de las validaciones. 
+Si todas las validaciones son correctas mostrar el mensaje en verde, en caso contrario en rojo. -->
+
+<h1>Regristro de personas</h1>
+
+<h3>Por favor rellena los campos solicitados</h3>
+
+<h4>Ingresar nombre</h4> 
+<input type="text" name="nmb" id="nombre" placeholder="Nombre">
+<br>
+<h4>Ingresar apellido</h4>
+<input type="text" name="apll" id="apellido" placeholder="Apellido">
+<br>
+<h4>Ingresar edad</h4>
+<input type="number" name="edad" id="edad" placeholder="Edad en años">
+<br>
+<h4>Ingresar altura</h4>
+<input type="number" name="altura" id="altura" placeholder="Altura en cm">
+<br>
+<h4>Ingresar correo</h4>
+<input type="text" name="correo" id="correo" placeholder="Correo electronico">
+
+<br>
+<br>
+<button id="btn">Enviar</button>
+
+<p id="pValidaciones"></p>
+
+
+<script src="ejercicio6.js"></script>
+</body>
+</html>
