@@ -56,7 +56,7 @@ function validarApellido(){
 function validarEdad(){
     const edadCont = edad.value;
 
-    if (edadCont < 18 || edadCont > 120){
+    if (edadCont < 18){
         alert("La edad no puede ser menor a 18 o mayor a 120");
         return false
     } else {
@@ -68,7 +68,7 @@ function validarEdad(){
 function validarAltura(){
     const alturaCont = altura.value;
 
-    if (alturaCont < 0 || alturaCont > 230){
+    if (alturaCont <= 0 || alturaCont > 230){
         alert("La altura no puede ser menor a 0 o mayor a 230");
         return false
     } else {
